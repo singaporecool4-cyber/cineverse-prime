@@ -1,24 +1,24 @@
 <p align="center">
-  <img src="app_icon.png" width="100" alt="SPYTube" />
+  <img src="app_icon.png" width="100" alt="CineVerse Prime" />
 </p>
-<h1 align="center">SPYTube</h1>
+<h1 align="center">CineVerse Prime</h1>
 <p align="center">
   <strong>Open-source Android streaming client</strong><br>
   Movies · Series · Anime · Live TV
 </p>
 
 <p align="center">
-  <a href="https://github.com/IM-SPYBOY/SPYTube/releases/latest"><img src="https://img.shields.io/github/v/release/IM-SPYBOY/SPYTube?style=flat-square&color=2997ff" alt="Release" /></a>
-  <a href="https://github.com/IM-SPYBOY/SPYTube/releases"><img src="https://img.shields.io/github/downloads/IM-SPYBOY/SPYTube/total?style=flat-square&color=34c759" alt="Downloads" /></a>
-  <a href="https://github.com/IM-SPYBOY/SPYTube/blob/main/LICENSE"><img src="https://img.shields.io/github/license/IM-SPYBOY/SPYTube?style=flat-square" alt="License" /></a>
-  <a href="https://t.me/SPYxTube"><img src="https://img.shields.io/badge/Telegram-Channel-0088cc?style=flat-square&logo=telegram" alt="Telegram" /></a>
+  <a href="https://github.com/singaporecool4-cyber/cineverse-prime/releases/latest"><img src="https://img.shields.io/github/v/release/singaporecool4-cyber/cineverse-prime?style=flat-square&color=2997ff" alt="Release" /></a>
+  <a href="https://github.com/singaporecool4-cyber/cineverse-prime/releases"><img src="https://img.shields.io/github/downloads/singaporecool4-cyber/cineverse-prime/total?style=flat-square&color=34c759" alt="Downloads" /></a>
+  <a href="https://github.com/singaporecool4-cyber/cineverse-prime/blob/main/LICENSE"><img src="https://img.shields.io/github/license/singaporecool4-cyber/cineverse-prime?style=flat-square" alt="License" /></a>
+  <a href="https://t.me/CineVersePrime"><img src="https://img.shields.io/badge/Telegram-Channel-0088cc?style=flat-square&logo=telegram" alt="Telegram" /></a>
 </p>
 
 ---
 
 ## Overview
 
-SPYTube is a native Android app built with Kotlin, Jetpack Compose, and a custom AGSL glass shader system. It aggregates publicly available streaming sources into a single interface with no ads, no accounts, and no tracking.
+CineVerse Prime is a native Android app built with Kotlin, Jetpack Compose, and a custom AGSL glass shader system. It aggregates publicly available streaming sources into a single interface with no ads, no account required.
 
 ---
 
@@ -65,8 +65,8 @@ SPYTube is a native Android app built with Kotlin, Jetpack Compose, and a custom
 
 ```bash
 # Clone
-git clone https://github.com/IM-SPYBOY/SPYTube.git
-cd SPYTube
+git clone https://github.com/singaporecool4-cyber/cineverse-prime.git
+cd cineverse-prime
 
 # Build debug APK
 ./gradlew assembleDebug
@@ -82,7 +82,7 @@ cd SPYTube
 ## Project Structure
 
 ```
-app/src/main/java/com/spytube/app/
+app/src/main/java/com/cineverseprime/app/
 ├── api/              # Network layer (Retrofit, OkHttp, DoH tunnel)
 ├── models/           # Data models, caches, managers
 ├── adapters/         # RecyclerView adapters
@@ -100,7 +100,7 @@ app/src/main/java/com/spytube/app/
 
 ## Download
 
-Get the latest APK from [Releases](https://github.com/IM-SPYBOY/SPYTube/releases/latest) or visit [SPYTube Web](https://spytube.in).
+Get the latest APK from [Releases](https://github.com/singaporecool4-cyber/cineverse-prime/releases/latest) or visit [CineVerse Prime Web](https://cineverse-prime.pages.dev).
 
 ---
 
@@ -108,9 +108,9 @@ Get the latest APK from [Releases](https://github.com/IM-SPYBOY/SPYTube/releases
 
 This application does not host, store, or distribute any media content. All streams are sourced from publicly available third-party APIs. All rights to the content belong to their respective owners.
 
-SPYTube does not claim ownership or responsibility for any material displayed. The app functions solely as an aggregator of publicly accessible resources.
+CineVerse Prime does not claim ownership or responsibility for any material displayed. The app functions solely as an aggregator of publicly accessible resources.
 
-If you are a copyright holder and believe any content infringes your rights, please [contact us](https://t.me/SPYxTube) for prompt removal.
+If you are a copyright holder and believe any content infringes your rights, please [contact us](https://t.me/CineVersePrime) for prompt removal.
 
 ---
 
@@ -121,5 +121,5 @@ This project is licensed under the [MIT License](LICENSE).
 ---
 
 <p align="center">
-  Built by <a href="https://github.com/IM-SPYBOY">SPYBOY</a>
+  Built by <a href="https://github.com/singaporecool4-cyber">Developer</a>
 </p>

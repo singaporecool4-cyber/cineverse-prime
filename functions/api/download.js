@@ -3,7 +3,7 @@ export async function onRequest(context) {
     const db = env.DB;
 
     // Standard GitHub Shortcut URL (Always works, handles 302 itself)
-    const DIRECT_DOWNLOAD_URL = "https://github.com/IM-SPYBOY/spytube/releases/latest/download/SPYTube.apk";
+    const DIRECT_DOWNLOAD_URL = "https://github.com/singaporecool4-cyber/cineverse-prime/releases/latest/download/CineVersePrime.apk";
 
     // Async Stats Logging (Does not block the user download)
     context.waitUntil(
@@ -11,8 +11,8 @@ export async function onRequest(context) {
             let tagName = "latest";
             try {
                 // Fetch tag for stats only
-                const response = await fetch("https://api.github.com/repos/IM-SPYBOY/spytube/releases/latest", {
-                    headers: { "User-Agent": "SPYTube-Landing-Page" }
+                const response = await fetch("https://api.github.com/repos/singaporecool4-cyber/cineverse-prime/releases/latest", {
+                    headers: { "User-Agent": "CineVerse-Prime-Landing-Page" }
                 });
                 if (response.ok) {
                     const data = await response.json();

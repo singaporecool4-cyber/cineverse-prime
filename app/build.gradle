@@ -5,11 +5,11 @@ plugins {
 }
 
 android {
-    namespace 'com.spytube.app'
+    namespace 'com.cineverseprime.app'
     compileSdk 36
 
     defaultConfig {
-        applicationId "com.spytube.app"
+        applicationId "com.cineverseprime.app"
         minSdk 24
         targetSdk 36
         versionCode 6
@@ -20,9 +20,9 @@ android {
     signingConfigs {
         release {
             storeFile file("release.keystore")
-            storePassword "spytube123"
-            keyAlias "spytube_release"
-            keyPassword "spytube123"
+            storePassword "cineverseprime123"
+            keyAlias "cineverseprime_release"
+            keyPassword "cineverseprime123"
         }
     }
 
