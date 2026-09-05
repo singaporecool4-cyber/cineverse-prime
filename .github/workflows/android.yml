@@ -21,7 +21,8 @@ jobs:
         run: chmod +x gradlew
 
       - name: Build with Gradle
-        run: ./gradlew assembleDebug -x processDebugGoogleServices
+        run: ./gradlew assembleDebug -x :app:processDebugGoogleServices
+        
         
 
       - name: Upload APK
