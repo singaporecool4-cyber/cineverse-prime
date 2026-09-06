@@ -16,25 +16,14 @@ android {
         multiDexEnabled true
     }
 
-    signingConfigs {
-        release {
-            storeFile file("release.keystore")
-            storePassword "cineverseprime123"
-            keyAlias "cineverseprime_release"
-            keyPassword "cineverseprime123"
-        }
-    }
-
     buildTypes {
         debug {
-            signingConfig signingConfigs.release
             debuggable true
         }
         release {
             minifyEnabled true
             shrinkResources true
             proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
-            signingConfig signingConfigs.release
         }
     }
     compileOptions {
@@ -68,7 +57,7 @@ dependencies {
     implementation 'androidx.cardview:cardview:1.0.0'
     implementation 'androidx.swiperefreshlayout:swiperefreshlayout:1.1.0'
     
-    // Jetpack Compose 2026 BOM
+    // Jetpack Compose BOM
     def composeBom = platform('androidx.compose:compose-bom:2026.01.00')
     implementation composeBom
     androidTestImplementation composeBom
@@ -84,11 +73,9 @@ dependencies {
     // Coil for image loading in Compose
     implementation 'io.coil-kt:coil-compose:2.5.0'
 
-    // Liquid Glass (Backdrop) — Real 2026 Frosted Glass
+    // Liquid Glass (Backdrop)
     implementation 'io.github.kyant0:backdrop:2.0.0-alpha01'
     implementation 'io.github.kyant0:shapes:1.0.4'
-    
-    // Kyant0 backdrop already provides drawBackdrop, vibrancy, blur, lens
 
     // Retrofit & Glide (Legacy/Data)
     implementation 'com.squareup.retrofit2:retrofit:2.11.0'
