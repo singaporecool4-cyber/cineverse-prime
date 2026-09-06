@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
-<resources>
-    <!-- Base theme: Dark -->
-    <style name="Theme.SPYTube" parent="Theme.Material3.Dark.NoActionBar">
+<resources xmlns:tools="http://schemas.android.com/tools">
+
+    <style name="Theme.CineVersePrime" parent="Theme.Material3.Dark.NoActionBar">
         <item name="colorPrimary">@color/primary</item>
         <item name="colorPrimaryDark">@color/primary_dark</item>
         <item name="android:colorBackground">@color/background</item>
@@ -10,7 +10,7 @@
         <item name="android:navigationBarColor">@color/background</item>
     </style>
 
-    <style name="Theme.SPYTube.Fullscreen" parent="Theme.SPYTube">
+    <style name="Theme.CineVersePrime.Fullscreen" parent="Theme.CineVersePrime">
         <item name="android:windowFullscreen">true</item>
         <item name="windowNoTitle">true</item>
         <item name="android:windowContentOverlay">@null</item>
@@ -19,7 +19,7 @@
         <item name="android:windowTranslucentNavigation">true</item>
     </style>
 
-    <style name="Theme.SPYTube.Dialog" parent="Theme.AppCompat.Dialog.Alert">
+    <style name="Theme.CineVersePrime.Dialog" parent="Theme.AppCompat.Dialog.Alert">
         <item name="android:background">@color/surface</item>
         <item name="android:textColor">@color/text_primary</item>
         <item name="android:textColorPrimary">@color/text_primary</item>
@@ -27,7 +27,7 @@
     </style>
 
     <!-- Splash screen theme: dark for both modes -->
-    <style name="Theme.SPYTube.Splash" parent="Theme.Material3.Dark.NoActionBar">
+    <style name="Theme.CineVersePrime.Splash" parent="Theme.Material3.Dark.NoActionBar">
         <item name="android:windowBackground">@android:color/black</item>
         <item name="android:statusBarColor">@android:color/black</item>
         <item name="android:navigationBarColor">@android:color/black</item>
@@ -35,4 +35,6 @@
         <item name="android:windowSplashScreenAnimatedIcon">@android:color/transparent</item>
         <item name="android:windowSplashScreenBackground">@android:color/black</item>
     </style>
+
 </resources>
+
